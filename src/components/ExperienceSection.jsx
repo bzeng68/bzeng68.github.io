@@ -9,9 +9,9 @@ const experience = [
         role: 'Full-Stack Software Engineer',
         period: 'Jan 2024 – Dec 2025',
         description: [
-            'Architected AWS-based full-stack web applications (Node.js, React) that support the provisioning of 100,000+ IEEE 1609.2 certificates for V2X infrastructure, streamlining the certificate management lifecycle',
-            'Engineered cross-platform mobile apps (Kotlin, Swift) enabling real-time interoperability between roadside units, vehicles, and mobile devices, improving on-site hazard awareness and worker safety',
-            'Implemented mobile signing libraries (Kotlin, Swift) using ECDH key exchange to enable secure, authenticated V2X messaging across transportation infrastructure',
+            'Architected AWS-based full-stack web applications (Node.js, React) that support the certificate provisioning and lifecycle management for 100K+ IEEE 1609.2 certificates',
+            'Engineered cross-platform mobile apps (Kotlin, Swift) enabling real-time V2X interoperability between roadside units, vehicles, and mobile devices for construction zone hazard detection and worker safety alerts',
+            'Built cryptographic signing libraries (Kotlin, Swift) implementing ECDH key exchange for secure V2X message authentication, enabling tamper-proof communication across connected transportation infrastructure',
             'Optimized system observability by migrating 32M+ logs to DocumentDB, accelerating queries and cutting overhead',
             'Containerized EV2G app and ensured reliable CI/CD by creating Jenkins pipelines for build, deployment, and testing',
             'Developed Flask microservice for traffic intersection validation, enabling Python-based validation from the web app',
@@ -25,7 +25,7 @@ const experience = [
         role: 'Product Full-Stack Software Engineer',
         period: 'Jan 2023 – Dec 2024',
         description: [
-            'Spearheaded modernization initiatives (Java, Spring Boot, Vue.js) eliminating technical debt and resolving critical security vulnerabilities for a medical resources platform serving 2M+ health professionals ',
+            'Led modernization initiatives (Java, Spring Boot, Vue.js) eliminating technical debt and resolving critical security vulnerabilities for a medical resources platform serving 2M+ health professionals ',
             'Enhanced internal developer tooling for 150+ developers to ensure proper backend configuration, reducing setup errors and accelerating onboarding',
             'Redesigned error-handling front-end architecture across application, improving user experience and maintainability',
         ],
@@ -37,8 +37,8 @@ const experience = [
         role: 'Software Developer | Webmaster',
         period: 'Sep 2021 – May 2025',
         description: [
-            'Co-developed a small-scale haptic arm in C++ as a PoC of controlling a full 4-degree-of-freedom robotic arm',
-            'Built Python ROS state machine, powering autonomous Rover navigation via Zed2 camera GPS and IMU data',
+            'Developed haptic control interface in C++ as proof-of-concept for teleoperated 4-DOF robotic arm manipulation',
+            'Implemented Python ROS state machine for autonomous navigation with Zed2 camera and IMU/GPS sensor fusion',
         ],
         link: 'https://www.linkedin.com/company/northeasternrover',
         image: NURoverIcon
