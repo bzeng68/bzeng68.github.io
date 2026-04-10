@@ -4,8 +4,18 @@ import TwitterIcon from '../assets/twitter-icon.png'
 
 const projects = [
     {
+        title: 'FinSignal: Financial Distress Foresight',
+        period: 'January 2026 - Present',
+        description: [
+            'Automated GCP infra via Terraform (Cloud Run, Cloud SQL, GCS, IAM, and Secret Manager), self-hosting MLflow with serverless auto-scaling to avoid managed platform costs',
+            'Engineered full-stack observability via Cloud Monitoring with Slack and email alerts for Cloud Run failures and data drift, enabling automated retraining triggers for a 0.977 ROC-AUC financial distress model'
+        ],
+        link: 'https://github.com/Foresight-ML/foresight_ml',
+        emoji: '⚠️'
+    },
+    {
         title: 'Large-Scale Misinformation Classification',
-        period: 'September 2025 - Present',
+        period: 'September 2025 - December 2025',
         description: [
             'Trained deep learning models (CNN, LSTM, FNN, Longformer) for misinformation detection across 3.4M articles, achieving 99.6% accuracy with Longformer outperforming baseline SVM/XGBoost models'
         ],
@@ -13,7 +23,7 @@ const projects = [
     },
     {
         title: 'Cheffy: AI Cooking Assistant',
-        period: 'September 2025 - Present',
+        period: 'September 2025 - December 2025',
         description: [
             'Co-designed AI agentic search cooking assistant using Gemini and multi-agent RAG to autonomously retrieve recipes and provide personalized cooking guidance'
         ],
