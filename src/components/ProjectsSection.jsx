@@ -4,7 +4,7 @@ import TwitterIcon from '../assets/twitter-icon.png'
 
 const projects = [
     {
-        title: 'FinSignal: Financial Distress Foresight',
+        title: 'Foresight: Financial Distress Monitoring',
         period: 'January 2026 - Present',
         description: [
             'Automated GCP infra via Terraform (Cloud Run, Cloud SQL, GCS, IAM, and Secret Manager), self-hosting MLflow with serverless auto-scaling to avoid managed platform costs',
