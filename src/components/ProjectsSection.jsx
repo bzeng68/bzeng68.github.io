@@ -4,11 +4,13 @@ import TwitterIcon from '../assets/twitter-icon.png'
 
 const projects = [
     {
-        title: 'Foresight: Financial Distress Monitoring',
-        period: 'January 2026 - Present',
+        title: 'Foresight-ML: Financial Distress Forecasting',
+        period: 'January 2026 - May 2026',
         description: [
-            'Automated GCP infra via Terraform (Cloud Run, Cloud SQL, GCS, IAM, and Secret Manager), self-hosting MLflow with serverless auto-scaling to avoid managed platform costs',
-            'Engineered full-stack observability via Cloud Monitoring with Slack and email alerts for Cloud Run failures and data drift, enabling automated retraining triggers for a 0.977 ROC-AUC financial distress model'
+            'Won 1st place at Northeastern × Google MLOps Expo 2026 for a 6–12 month financial distress forecasting platform',
+            'Orchestrated end-to-end ML pipelines via scheduled Airflow DAGs (ingestion, preprocessing, retraining) with Cloud Monitoring alerts for data drift and Cloud Run failures, sustaining a 0.977 ROC-AUC financial distress model',
+            'Provisioned GCP infra via Terraform (Cloud Run, Cloud SQL, GCS, IAM, Secret Manager), deploying MLflow on Cloud Run with serverless auto-scaling to eliminate managed platform costs'
+
         ],
         link: 'https://github.com/Foresight-ML/foresight_ml',
         emoji: '⚠️'

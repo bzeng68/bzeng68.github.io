@@ -26,7 +26,7 @@ const experience = [
         period: 'Jan 2023 – Dec 2024',
         description: [
             'Led modernization initiatives (Java, Spring Boot, Vue.js) eliminating technical debt and resolving critical security vulnerabilities for a medical resources platform serving 2M+ health professionals ',
-            'Enhanced internal developer tooling for 150+ developers to ensure proper backend configuration, reducing setup errors and accelerating onboarding',
+            'Improved internal dev tooling for 150+ developers, reducing misconfiguration and onboarding friction',
             'Redesigned error-handling front-end architecture across application, improving user experience and maintainability',
         ],
         link: 'https://www.wolterskluwer.com/en/solutions/uptodate',
