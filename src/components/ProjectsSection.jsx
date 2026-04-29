@@ -8,9 +8,8 @@ const projects = [
         period: 'January 2026 - May 2026',
         description: [
             'Won 1st place at Northeastern × Google MLOps Expo 2026 for a 6–12 month financial distress forecasting platform',
-            'Orchestrated end-to-end ML pipelines via scheduled Airflow DAGs (ingestion, preprocessing, retraining) with Cloud Monitoring alerts for data drift and Cloud Run failures, sustaining a 0.977 ROC-AUC financial distress model',
+            'Orchestrated end-to-end ML pipelines via scheduled Airflow DAGs (ingestion, preprocessing, retraining) with Cloud Monitoring alerts for data drift and Cloud Run failures, ensuring model accuracy at 0.977 ROC-AUC',
             'Provisioned GCP infra via Terraform (Cloud Run, Cloud SQL, GCS, IAM, Secret Manager), deploying MLflow on Cloud Run with serverless auto-scaling to eliminate managed platform costs'
-
         ],
         link: 'https://github.com/Foresight-ML/foresight_ml',
         emoji: '⚠️'
@@ -27,7 +26,7 @@ const projects = [
         title: 'Cheffy: AI Cooking Assistant',
         period: 'September 2025 - December 2025',
         description: [
-            'Co-designed AI agentic search cooking assistant using Gemini and multi-agent RAG to autonomously retrieve recipes and provide personalized cooking guidance'
+            'Developed a multi-agent cooking assistant (Gemini, RAG) with 3 external tools and iterative output grading agent'
         ],
         link: 'https://github.com/bzeng68/cheffy',
         emoji: '😋'
@@ -36,7 +35,7 @@ const projects = [
         title: 'Finance Tracker AI Chatbot',
         period: 'June 2025 - Present',
         description: [
-            'Created RAG-powered chatbot using LangChain for automated financial analysis transaction categorization and personalized budget insights'
+            'Created a LangChain RAG chatbot for natural-language transaction analysis and budget insights'
         ],
         link: 'https://github.com/bzeng68/finance-tracker',
         emoji: '📈'
