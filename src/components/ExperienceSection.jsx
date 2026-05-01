@@ -12,7 +12,7 @@ const experience = [
             'Architected AWS-based full-stack web applications (Node.js, React) that support the certificate provisioning and lifecycle management for 100K+ IEEE 1609.2 certificates',
             'Engineered cross-platform mobile apps (Kotlin, Swift) enabling real-time V2X interoperability for 50+ devices at 500+ messages/second for construction zone hazard detection and worker safety alerts',
             'Built ECDH cryptographic signing libraries (Kotlin, Swift) for tamper-proof V2X message authentication',
-            'Optimized system observability by migrating 32M+ logs to DocumentDB, reducing infra costs by ~50%',
+            'Optimized system observability by migrating 32M+ logs to DocumentDB, reducing infra costs by ~45%',
             'Containerized EV2G app and automated CI/CD via Jenkins pipelines, eliminating manual build, test, and release steps',
             'Developed Flask microservice for traffic intersection validation, eliminating reliance on an inconsistent external tool',
             'Consolidated three repos into a monorepo, enabling 14 end-to-end tests across all services for the first time'
