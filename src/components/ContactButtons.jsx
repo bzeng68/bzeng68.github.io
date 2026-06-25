@@ -1,5 +1,5 @@
-import { Description, Email, GitHub, LinkedIn } from "@mui/icons-material"
-import { Stack, Button } from "@mui/material"
+import { Description, Email, GitHub, LinkedIn } from '@mui/icons-material'
+import { Button, Stack } from '@mui/material'
 
 export default function ContactButtons() {
     return (
@@ -7,7 +7,7 @@ export default function ContactButtons() {
             direction='row'
             spacing={2}
             justifyContent='center'
-            sx={{ marginTop: '15px', flexWrap: 'wrap' }}
+            sx={{ mt: 3, flexWrap: 'wrap' }}
         >
             <Button
                 variant='contained'
@@ -15,9 +15,12 @@ export default function ContactButtons() {
                 target='_blank'
                 startIcon={<Description/>}
                 sx={{
-                    backgroundColor: '#6c757d',
-                    color: '#fff',
-                    '&:hover': { backgroundColor: '#5a6268', color: '#fff' }
+                    backgroundColor: '#74808c',
+                    color: '#f2f4f7',
+                    '&:hover': {
+                        backgroundColor: '#66727e',
+                        color: '#ffffff',
+                    }
                 }}
             >
                 Resume
@@ -28,9 +31,12 @@ export default function ContactButtons() {
                 target='_blank'
                 startIcon={<LinkedIn/>}
                 sx={{
-                    backgroundColor: '#0077b5',
-                    color: '#fff',
-                    '&:hover': { backgroundColor: '#005983', color: '#fff' }
+                    backgroundColor: '#0f7ab3',
+                    color: '#ecf7ff',
+                    '&:hover': {
+                        backgroundColor: '#0d6fa5',
+                        color: '#ffffff',
+                    }
                 }}
             >
                 LinkedIn
@@ -41,9 +47,12 @@ export default function ContactButtons() {
                 target='_blank'
                 startIcon={<GitHub/>}
                 sx={{
-                    backgroundColor: '#24292f',
-                    color: '#fff',
-                    '&:hover': { backgroundColor: '#1b1f23', color: '#fff' }
+                    backgroundColor: '#242f43',
+                    color: '#f0f4fb',
+                    '&:hover': {
+                        backgroundColor: '#202a3c',
+                        color: '#ffffff',
+                    }
                 }}
             >
                 GitHub
@@ -54,9 +63,12 @@ export default function ContactButtons() {
                 target='_blank'
                 startIcon={<Email/>}
                 sx={{
-                    backgroundColor: '#8e6ca3',
-                    color: '#fff',
-                    '&:hover': { backgroundColor: '#7b5991', color: '#fff' }
+                    backgroundColor: '#8d70ab',
+                    color: '#f6f0ff',
+                    '&:hover': {
+                        backgroundColor: '#7f639c',
+                        color: '#ffffff',
+                    }
                 }}
             >
                 Email

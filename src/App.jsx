@@ -1,23 +1,27 @@
-import React from 'react'
 import './App.css'
-import Headshot from './components/Headshot'
-import AnimatedSection from './components/AnimatedSection'
-import ContactButtons from './components/ContactButtons'
-import NameDescription from './components/NameDescription'
-import ExperienceSection from './components/ExperienceSection'
-import ProjectsSection from './components/ProjectsSection'
+import { Box } from '@mui/material'
+import TaglineSection from './components/TaglineSection'
+import SwipeDeckSection from './components/SwipeDeckSection'
+import ContactSection from './components/ContactSection'
+import ScrollFadeIn from './components/ScrollFadeIn'
+import { experienceCards, projectCards } from './content/portfolioData'
 
 function App() {
   return (
-    <>
-      <AnimatedSection>
-        <Headshot/>
-        <NameDescription/>
-        <ContactButtons/>
-      </AnimatedSection>
-      <ExperienceSection/>
-      <ProjectsSection/>
-    </>
+    <Box className='app-shell'>
+      <TaglineSection />
+      <ScrollFadeIn>
+        <SwipeDeckSection
+          panels={[
+            { title: 'Experience', emoji: '🚀', items: experienceCards },
+            { title: 'Projects', emoji: '💡', items: projectCards },
+          ]}
+        />
+      </ScrollFadeIn>
+      <ScrollFadeIn>
+        <ContactSection />
+      </ScrollFadeIn>
+    </Box>
   )
 }
 
